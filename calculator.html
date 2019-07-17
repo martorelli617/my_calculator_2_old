@@ -18,6 +18,10 @@ function cuarta() {
     var num = document.getElementById("n1");
     num.value = Math.pow(num.value, 4);
 }
+function inverse(){
+    var num = document.getElementById("n1");
+    num.value = 1/num.value;
+}
 </script>
 </head>
 <body>
@@ -29,6 +33,7 @@ function cuarta() {
         <button onclick="cuarta()"> x^4 </button>      
         <button onclick="sine()"> sin(x) </button>
         <button onclick="square()"> x^2 </button>
+        <button onclick="inverse()"> 1/x </button>  
     </p>
 </body>
 </html>
